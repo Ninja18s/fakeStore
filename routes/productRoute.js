@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 
 const authMiddleware = require('../middleware/authMiddleware');
-const { addProduct, getAllProducts, getProductById, update, deleteProduct } = require('../controller/user/product');
+const { addProduct, getAllProducts, getProductById, update, deleteProduct } = require('../controller/product/product');
 
 
 //<-------------------Admin routes------------------>
